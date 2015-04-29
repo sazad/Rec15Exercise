@@ -168,6 +168,12 @@ public class ChatServerImpl extends Thread implements ChatServer {
         }
 
 
+<<<<<<< HEAD
+=======
+        // TODO: Notify all clients when a new client joins the chat server.
+        // This probably is made easy with a call back for when a client joins.
+
+>>>>>>> master
         /**
          * Callback for when a message is received by the server. Notifies all
          * clients about the new message received
